@@ -148,7 +148,7 @@ export default function HomePage() {
                     to driving successful outcomes and fostering collaboration in dynamic environments.
                   </p>
                   <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
-                    I currently work as a Facilities Coordinator at Atla, a nonprofit organization dedicated to assisting disabled children.
+                    I currently work as a Facilities Coordinator at Alta, a nonprofit organization dedicated to assisting disabled children.
                     In my role, I manage the maintenance and operations of our facilities to ensure a safe and welcoming environment for
                     our staff and the families we serve. I collaborate with various teams to optimize our space for programs and events,
                     contributing to our mission of providing essential support and resources to children with disabilities. My focus is on
