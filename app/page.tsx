@@ -114,7 +114,7 @@ export default function HomePage() {
 
                 <div className="space-y-4">
                   <h3 className="text-lg font-semibold text-foreground text-center">Gallery</h3>
-                  <div className="grid grid-cols-2 gap-3 sm:gap-4 max-w-sm mx-auto lg:max-w-none">
+                  <div className="grid grid-cols-3 gap-3 sm:gap-4 max-w-sm mx-auto lg:max-w-none">
                     {galleryPhotos.map((photo, index) => (
                       <div
                         key={index}
@@ -135,31 +135,27 @@ export default function HomePage() {
               <div className="lg:col-span-2 space-y-6">
                 {/* Personal Story */}
                 <div>
-                  <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-4">My Journey</h3>
-
-                  <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-                    Ms. Raisin was cool so I decided to be an economics major. Brady fill this in later. Here's your Linkedin
-                  </p>
-
+                  <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-4">Background</h3>
                   <p className="text-muted-foreground text-base sm:text-lg leading-relaxed mb-4">
-                    I am an experienced leader with a long history of team development and coordination.
-                    I have a Bachelors of Science in Managerial Economics from the University of California, Davis.
-                    During my education I completed several classes with an emphasis on Microsoft Excel and interpreting data.
+                    Hi, I'm Brady. I was born and raised in Yuba City, where I cultivated a strong sense of community and a passion for leadership.
+                    I earned my degree in Managerial Economics from UC Davis, which provided me with a solid foundation in analytical
+                    thinking and strategic decision-making. With a keen interest in managing projects and leading teams, I am dedicated
+                    to driving successful outcomes and fostering collaboration in dynamic environments.
                   </p>
                   <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
-                    This background in Excel was strengthened further with my time as a member of the Economics and Business Student
-                    Association which is the largest professional club at UC Davis. As a member of this club, I learned I have a strong
-                    interest in Sales Analytics and I hope to enter the professional workforce in this field.
+                    I currently work as a Facilities Coordinator at Atla, a nonprofit organization dedicated to assisting disabled children.
+                    In my role, I manage the maintenance and operations of our facilities to ensure a safe and welcoming environment for
+                    our staff and the families we serve. I collaborate with various teams to optimize our space for programs and events,
+                    contributing to our mission of providing essential support and resources to children with disabilities. My focus is on
+                    creating an accessible and functional environment that enhances the overall experience for our community.
                   </p>
                 </div>
 
                 {/* Interests and Hobbies */}
                 <div>
-                  <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-4">Interests and Hobbies</h3>
+                  <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-4"></h3>
                   <p className="text-muted-foreground leading-relaxed text-base sm:text-base">
-                    When I'm not on the job, you'll find me play Halo on Legendary with Cameron and Miles.
-                    Also I like watching football and NASCAR, not Forumla 1 that's cringe.
-                    I'm on a swim team. I go kayaking sometimes and I hate the winter.
+
                   </p>
                 </div>
               </div>
@@ -171,26 +167,32 @@ export default function HomePage() {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Heart className="w-5 h-5 text-primary" />
-                    Core Values
+                    Interests and Hobbies
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div>
-                    <h4 className="font-semibold text-foreground">Integrity</h4>
+                    <h4 className="font-semibold text-foreground">Competitive Swim</h4>
                     <p className="text-sm text-muted-foreground">
-                      Honest analysis and transparent communication in all professional endeavors.
+                      My fastest lap time is 25 seconds.
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground">Curiosity</h4>
+                    <h4 className="font-semibold text-foreground">Kayaking</h4>
                     <p className="text-sm text-muted-foreground">
-                      Continuous learning and questioning to uncover deeper insights.
+                      I go to the wilderness a few times a year and paddle.
                     </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground">Impact</h4>
+                    <h4 className="font-semibold text-foreground">Formula 1</h4>
                     <p className="text-sm text-muted-foreground">
-                      Using economic knowledge to create positive change in communities and businesses.
+                      I love fast car! Vroom vroom.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-foreground">NFL</h4>
+                    <p className="text-sm text-muted-foreground">
+                      I'm a 49ers fan.
                     </p>
                   </div>
                 </CardContent>
@@ -200,13 +202,16 @@ export default function HomePage() {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Target className="w-5 h-5 text-secondary" />
-                    Mission Statement
+                    Long-Term Vision
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground leading-relaxed">
-                    To bridge the gap between complex economic theory and practical business applications, helping
-                    organizations make data-driven decisions that promote sustainable growth and positive social impact.
+                    My goal is to leverage my skills and experience in management to contribute
+                    to the innovative projects and strategic initiatives of a Fortune 500 company. I
+                    am passionate about aligning investment strategies with organizational objectives
+                    and believe that working in such a dynamic environment would provide an unparalleled
+                    opportunity to drive impactful results and contribute to meaningful growth.
                   </p>
                 </CardContent>
               </Card>
@@ -242,11 +247,10 @@ export default function HomePage() {
                   </CardHeader>
                   <CardContent>
                     <ul className="text-muted-foreground space-y-2">
-                      <li>• Economics Department Honor Society Member</li>
-                      <li>• Undergraduate Research Assistant - Labor Economics Lab</li>
+                      <li>• Elliot Ranch Rockets Honor Society Member</li>
                       <li>• Senior Thesis: "Why Bidenism is Based"</li>
                       <li>• Dean's List for 6 consecutive quarters</li>
-                      <li>• UC Davis Economics Student Association Vice President</li>
+                      <li>• UC Davis Economics Student Society President</li>
                     </ul>
                   </CardContent>
                 </Card>

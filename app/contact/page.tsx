@@ -56,7 +56,7 @@ export default function ContactPage() {
                   <div className="min-w-0 flex-1">
                     <h3 className="font-semibold text-foreground mb-1">Email</h3>
                     <p className="text-muted-foreground break-all sm:break-normal">bradygomez@ucdavis.edu</p>
-                    <p className="text-sm text-muted-foreground">I typically respond within 15 minutes</p>
+                    <p className="text-sm text-muted-foreground">I typically respond within 48 hours</p>
                   </div>
                 </div>
 
@@ -67,7 +67,9 @@ export default function ContactPage() {
                   <div className="min-w-0 flex-1">
                     <h3 className="font-semibold text-foreground mb-1">Phone</h3>
                     <p className="text-muted-foreground">(916) 555-0123</p>
-                    <p className="text-sm text-muted-foreground">Available Mon-Fri, 12 AM - 11:59 PM</p>
+                    <p className="text-sm text-muted-foreground">Available Mon-Fri, 5-9 PM</p>
+                    <p className="text-sm text-muted-foreground">and Sat-Sun, 10 AM - 9 PM</p>
+                    <p className="text-sm text-muted-foreground">Leave a voicemail if I'm unavailable</p>
                   </div>
                 </div>
 
@@ -107,29 +109,6 @@ export default function ContactPage() {
                 <p className="text-sm text-muted-foreground mt-4 text-center sm:text-left">
                   Follow me on social media for updates and insights about my work and interests.
                 </p>
-              </CardContent>
-            </Card>
-
-            {/* Availability */}
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-xl sm:text-2xl text-foreground">Availability</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-3">
-                  <div className="flex items-center justify-between">
-                    <span className="text-muted-foreground">Current Status</span>
-                    <span className="text-primary font-medium">Unhappily married</span>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-muted-foreground">Response Time</span>
-                    <span className="text-foreground">Within 72 hours</span>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-muted-foreground">Preferred Contact</span>
-                    <span className="text-foreground">Email</span>
-                  </div>
-                </div>
               </CardContent>
             </Card>
           </div>
