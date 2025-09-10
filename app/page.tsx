@@ -103,7 +103,7 @@ export default function HomePage() {
                   <div className="relative">
                     <div className="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full border-4 border-border bg-muted flex items-center justify-center overflow-hidden">
                       <img
-                        src="/brady-headshot.jpg"
+                        src="brady-headshot.jpg"
                         alt="Brady Gomez - Professional headshot"
                         className="w-full h-full object-cover"
                       />
