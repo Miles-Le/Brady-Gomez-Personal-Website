@@ -58,6 +58,12 @@ export default function ResumePage() {
               <p className="text-muted-foreground leading-relaxed">
                 Experienced professional with a proven track record of being goated on the job.
                 Skilled in pretty much anything except cooking.
+                Dedicated and detail-oriented Facilities Coordinator with a strong background in organizing and managing
+                large-scale projects. Proven ability to effectively coordinate resources, streamline operations,
+                and enhance facility functionality to support organizational goals. Adept at handling high-pressure
+                situations with composure, ensuring timely and efficient project execution. Solid foundation in analytical 
+                thinking and strategic decision-making. Committed to fostering a collaborative and productive work environment
+                while maintaining a focus on sustainability and community impact.
               </p>
             </CardContent>
           </Card>
@@ -79,11 +85,11 @@ export default function ResumePage() {
                 </div>
                 <p className="text-primary font-medium mb-3 text-sm sm:text-base">Alta • Sacramento, CA</p>
                 <ul className="space-y-2 text-muted-foreground text-sm sm:text-base">
-                  <li>• Single handedly moved the entire office of my company to a new location</li>
-                  <li>• Draw office floor plans</li>
-                  <li>• Do all the work for my useless coworker</li>
-                  <li>• Organized an event that a thousand people attended</li>
-                  <li>• Yell at useless contractors</li>
+                  <li>• Led the relocation of an office to a new location, ensuring minimal disruption to operations.</li>
+                  <li>• Developed detailed office floor plans to optimize space utilization and enhance workflow.</li>
+                  <li>• Collaborated with team members to support project initiatives and improve overall efficiency.</li>
+                  <li>• Organized a large-scale event with 1,000 attendees, managing logistics and coordination effectively.</li>
+                  <li>• Communicated with contractors to ensure project standards and timelines were met.</li>
                 </ul>
               </div>
 
@@ -151,7 +157,18 @@ export default function ResumePage() {
                     Bachelor of Science in Managerial Economics
                   </h3>
                   <p className="text-primary font-medium text-sm sm:text-base">Univeristy of California, Davis</p>
-                  <p className="text-muted-foreground text-sm">Put your relevant coursework, honors, or achievements here Brady</p>
+                  <p className="text-muted-foreground text-sm">
+                    • Business Government Regulation and Society
+                  </p>
+                  <p className="text-muted-foreground text-sm">
+                    • Cooperative Business Enterprise
+                  </p>
+                  <p className="text-muted-foreground text-sm">
+                    • Economic Development
+                  </p>
+                  <p className="text-muted-foreground text-sm">
+                    • Intermediate Macroeconomic Theory
+                  </p>
                 </div>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground mt-2 sm:mt-0">
                   <Calendar className="w-4 h-4" />

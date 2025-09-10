@@ -15,6 +15,11 @@ export default function HomePage() {
     "economics-research-presentation.jpg",
     "hiking-trail-nature-photography.jpg",
     "swim.jpg",
+    "nascar.jpg",
+    "disabled.jpg",
+    "uc-davis.jpg",
+    "manager.jpg",
+    "kayak.jpg",
   ]
 
   return (
@@ -248,9 +253,11 @@ export default function HomePage() {
                   <CardContent>
                     <ul className="text-muted-foreground space-y-2">
                       <li>• Elliot Ranch Rockets Honor Society Member</li>
-                      <li>• Senior Thesis: "Why Bidenism is Based"</li>
-                      <li>• Dean's List for 6 consecutive quarters</li>
-                      <li>• UC Davis Economics Student Society President</li>
+                      <li>• Award Winning Senior Thesis:
+                        <br/>&nbsp;&nbsp;"Why Bidenism is Based"</li>
+                      <li>• Economics and Business Student Association
+                        <br/>&nbsp;&nbsp;Competition Finalist</li>
+                      <li>• IKEA Employee of the Month</li>
                     </ul>
                   </CardContent>
                 </Card>
@@ -292,7 +299,7 @@ export default function HomePage() {
                     </Link>
                   </Button>
                   <Button variant="outline" asChild className="w-full sm:w-auto bg-transparent">
-                    <Link href="https://linkedin.com/in/alexchen" className="flex items-center gap-2">
+                    <Link href="https://linkedin.com/in/bradygomez" className="flex items-center gap-2">
                       <Linkedin className="w-4 h-4" />
                       LinkedIn
                     </Link>
