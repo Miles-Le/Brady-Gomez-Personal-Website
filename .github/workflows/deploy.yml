@@ -3,7 +3,7 @@ name: Deploy Next.js to GitHub Pages
 on:
   push:
     branches:
-      - Prepublish  # Change this to your default branch if it's different
+      - Prepublish  # Change this if your main branch is named differently
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '22'  # Specify the Node.js version you are using
+          node-version: '22'  # Specify the Node.js version you want to use
 
       - name: Install dependencies
         run: npm install
@@ -28,4 +28,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out  # Directory where the static files are located
+          publish_dir: ./out  # Path to the output directory
