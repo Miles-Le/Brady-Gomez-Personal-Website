@@ -9,6 +9,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+  output: 'export', // Move this line outside the object
+  trailingSlash: true,
+  // other configurations...
+};
 
-export default nextConfig
+// Export the configuration object
+export default nextConfig;
