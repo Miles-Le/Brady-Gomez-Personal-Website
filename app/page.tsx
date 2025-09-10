@@ -11,10 +11,10 @@ export default function HomePage() {
   const [selectedPhoto, setSelectedPhoto] = useState<string | null>(null)
 
   const galleryPhotos = [
-    "/uc-davis-campus-graduation-photo.jpg",
-    "/economics-research-presentation.jpg",
-    "/hiking-trail-nature-photography.jpg",
-    "/swim.jpg",
+    "uc-davis-campus-graduation-photo.jpg",
+    "economics-research-presentation.jpg",
+    "hiking-trail-nature-photography.jpg",
+    "swim.jpg",
   ]
 
   return (
