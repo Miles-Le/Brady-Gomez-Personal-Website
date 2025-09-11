@@ -17,8 +17,8 @@ export default function HomePage() {
     "swim.jpg",
     "nascar.jpg",
     "disabled.jpg",
-    "uc-davis.jpg",
-    "manager.jpg",
+    "gigabrady.jpg",
+    "brady-frank-sinatra.jpg",
     "kayak.jpg",
   ]
 
